@@ -65,7 +65,7 @@ app.listen(3000, ()=> {
 ```
 6. To start the server run the following command
 ```
-yarn start
+npm start
 ```
 7. Then open your browser and request your data using localhost and your get route:
 The example uses localhost:3000/ and localhost:3000/host
