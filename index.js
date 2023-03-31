@@ -3,7 +3,6 @@ const express = require('express');
 const axios = require('axios')
 const app = express()
 const apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=London"
-console.log(process.env.API_KEY)
 app.get('/', (req,res)=> {
     res.send("Hello Api")
 })
